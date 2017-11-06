@@ -22,4 +22,4 @@ This is achieved by hijacking the registry and adding the necessary values and b
 
 * Matt Graeber
 * Chris Ross
-* netbiosX
+* [netbiosX](https://twitter.com/netbiosX)
