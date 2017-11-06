@@ -4,4 +4,4 @@ MetaTwin - PowerShell script of minisllc and binary dependencies (ResourceHacker
 
 # Original Repository
 
-* MetaTwin - https://github.com/minisllc/metatwin
+* MetaTwin.ps1 - https://github.com/minisllc/metatwin
