@@ -1,5 +1,14 @@
 # Digital Signature Hijack
-Hijacking legitimate digital signatures is a technique that can be used during red team assessments in order to sign PowerShell code and binaries. This could assist to bypass Device Guard restrictions and maintain stealthy.
+Hijacking legitimate digital signatures is a technique that can be used during red team assessments in order to sign PowerShell code and binaries. This could assist to bypass Device Guard restrictions and maintain stealthy in an engagement. DigitalSignatureHijack is a PowerShell script based on [Matt Graeber](https://github.com/mattifestation/) research that can perform the following operations:
+
+* Digitally sign all portable executables on the host as Microsoft
+* Digitally sign all powershell scripts on the host as Microsoft
+* Validate the digital signature for all portable executables
+* Validate the digital signature for all powershell scripts
+
+This is achieved by hijacking the registry and adding the necessary values and by utilizing the custom SIP dll file that Matt Graeber developed. Users need to modify the path of MySIP.dll to their local path.
+
+* MySIP.dll - https://github.com/mattifestation/PoCSubjectInterfacePackage
 
 # Resources
 * http://www.exploit-monday.com/2017/08/application-of-authenticode-signatures.html
@@ -13,3 +22,4 @@ Hijacking legitimate digital signatures is a technique that can be used during r
 
 * Matt Graeber
 * Chris Ross
+* netbiosX
