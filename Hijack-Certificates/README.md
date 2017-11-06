@@ -8,4 +8,4 @@
 
 * MySIP.dll - https://github.com/mattifestation/PoCSubjectInterfacePackage
 * SigPirate.exe - https://github.com/xorrior/Random-CSharpTools/tree/master/SigPirate
-* SigThief - https://github.com/secretsquirrel/SigThief
+* SigThief.exe - https://github.com/secretsquirrel/SigThief
