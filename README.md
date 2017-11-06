@@ -8,3 +8,8 @@ Hijacking legitimate digital signatures is a technique that can be used during r
 # Disclaimer
 * The purpose of this repository is to store compiled DLL's, binaries, scripts and to centralize existing information. All the credits are going to the original authors of these tools. 
 * The binaries and the DLL which are stored in this repository have not been modified from their original state and they are totally safe. However if for any reason you don't trust this repository the original repositories which contain the source code of these tools are provided so anybody can compile them.
+
+# Credits
+
+* Matt Graeber
+* Chris Ross
