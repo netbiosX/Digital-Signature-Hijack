@@ -48,3 +48,4 @@ ValidateSignaturePS
 * [Matt Graeber](twitter.com/mattifestation)
 * [Chris Ross](https://twitter.com/xorrior)
 * [netbiosX](https://twitter.com/netbiosX)
+* [Josh Pitts](https://twitter.com/midnite_runr)
