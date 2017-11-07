@@ -11,8 +11,26 @@ This is achieved by hijacking the registry and adding the necessary values and b
 * MySIP.dll - https://github.com/mattifestation/PoCSubjectInterfacePackage
 
 # Demo
-TODO
-https://pentestlab.files.wordpress.com/2017/11/powershell-script-valid-signature-e1510082619334.png
+## Signing Portable Executables
+```
+SignExe
+```
+![](https://pentestlab.files.wordpress.com/2017/11/signed-mimikatz.png)
+## Signature Validation
+```
+ValidateSignaturePE
+```
+![](https://pentestlab.files.wordpress.com/2017/11/signed-mimikatz-valid-signature.png)
+## Signing PowerShell Scripts
+```
+SignPS
+```
+![](https://pentestlab.files.wordpress.com/2017/11/signed-powershell-script.png)
+## Signature Validation
+```
+ValidateSignaturePS
+```
+![](https://pentestlab.files.wordpress.com/2017/11/powershell-script-valid-signature-e1510082619334.png)
 
 # Resources
 * [Hijacking Digital Signatures](https://pentestlab.blog/2017/11/06/hijacking-digital-signatures/)
