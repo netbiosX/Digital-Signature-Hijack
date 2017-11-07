@@ -10,16 +10,21 @@ This is achieved by hijacking the registry and adding the necessary values and b
 
 * MySIP.dll - https://github.com/mattifestation/PoCSubjectInterfacePackage
 
+# Demo
+TODO
+
 # Resources
-* http://www.exploit-monday.com/2017/08/application-of-authenticode-signatures.html
+* [Hijacking Digital Signatures](https://pentestlab.blog/2017/11/06/hijacking-digital-signatures/)
+* [Application of authenticode signatures](http://www.exploit-monday.com/2017/08/application-of-authenticode-signatures.html)
+* [Subverting Trust in Windows](https://specterops.io/assets/resources/SpecterOps_Subverting_Trust_in_Windows.pdf)
 * https://www.youtube.com/watch?v=wxmxxgL6Nz8
 
 # Disclaimer
-* The purpose of this repository is to store compiled DLL's, binaries, scripts and to centralize existing information. All the credits are going to the original authors of these tools. 
-* The binaries and the DLL which are stored in this repository have not been modified from their original state and they are totally safe. However if for any reason you don't trust this repository the original repositories which contain the source code of these tools are provided so anybody can compile them.
+* The purpose of this repository is to store compiled DLL's, binaries, scripts and to centralize existing information about digital signature hijacking. All the credits are going to the original authors of these tools. 
+* The binaries and the DLL which are stored in this repository have not been modified from their original state and they are totally safe. However if for any reason you don't trust this repository the original repositories which contain the source code of these tools are provided in order to compile them by yourself.
 
 # Credits
 
-* Matt Graeber
+* [Matt Graeber](twitter.com/mattifestation)
 * Chris Ross
 * [netbiosX](https://twitter.com/netbiosX)
