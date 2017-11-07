@@ -12,6 +12,7 @@ This is achieved by hijacking the registry and adding the necessary values and b
 
 # Demo
 TODO
+https://pentestlab.files.wordpress.com/2017/11/powershell-script-valid-signature-e1510082619334.png
 
 # Resources
 * [Hijacking Digital Signatures](https://pentestlab.blog/2017/11/06/hijacking-digital-signatures/)
