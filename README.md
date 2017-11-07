@@ -46,5 +46,5 @@ ValidateSignaturePS
 # Credits
 
 * [Matt Graeber](twitter.com/mattifestation)
-* Chris Ross
+* [Chris Ross](https://twitter.com/xorrior)
 * [netbiosX](https://twitter.com/netbiosX)
