@@ -17,7 +17,8 @@ TODO
 * [Hijacking Digital Signatures](https://pentestlab.blog/2017/11/06/hijacking-digital-signatures/)
 * [Application of authenticode signatures](http://www.exploit-monday.com/2017/08/application-of-authenticode-signatures.html)
 * [Subverting Trust in Windows](https://specterops.io/assets/resources/SpecterOps_Subverting_Trust_in_Windows.pdf)
-* https://www.youtube.com/watch?v=wxmxxgL6Nz8
+* [Subverting and Restoring Trust in Windows](https://www.youtube.com/watch?v=wxmxxgL6Nz8)
+* [Borrowing Microsoft Code Signing Certificates](https://blog.conscioushacker.io/index.php/2017/09/27/borrowing-microsoft-code-signing-certificates/)
 
 # Disclaimer
 * The purpose of this repository is to store compiled DLL's, binaries, scripts and to centralize existing information about digital signature hijacking. All the credits are going to the original authors of these tools. 
