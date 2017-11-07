@@ -1,6 +1,6 @@
 # Contents
 
-MetaTwin - PowerShell script of minisllc and binary dependencies (ResourceHacker.exe and SigThief.exe)
+MetaTwin - PowerShell script of minisllc to copy metadata information and binary dependencies (ResourceHacker.exe and SigThief.exe)
 
 # Original Repository
 
